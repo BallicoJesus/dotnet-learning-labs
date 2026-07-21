@@ -2,6 +2,8 @@
 {
     static void Main(string[] args)
     {
-        Variables();
+       // Variables();
+       // ShowNumericTypes();
+       ShowStringTypes();
     }
 }
