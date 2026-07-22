@@ -4,6 +4,7 @@
     {
        // Variables();
        // ShowNumericTypes();
-       ShowStringTypes();
+       //ShowStringTypes();
+       SalaryCalculator();
     }
 }

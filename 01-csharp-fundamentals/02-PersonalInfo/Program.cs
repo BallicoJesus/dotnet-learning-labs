@@ -18,6 +18,9 @@
      string ciudad = Console.ReadLine();
      Console.WriteLine("Trabaja? Si/No: ");
      string trabajaInput = Console.ReadLine();
+     Console.WriteLine("Ingrese su año de nacimiento: ");
+     int anioNacimiento = int.Parse(Console.ReadLine());
+     double IMC = peso / (altura * altura);
 
      Console.WriteLine("========================================================");
      Console.WriteLine("FICHA PERSONAL");
@@ -28,7 +31,8 @@
     Console.WriteLine($"Peso: {peso}");
     Console.WriteLine($"Ciudad: {ciudad}"); 
     Console.WriteLine($"Trabaja: {trabajaInput}");
-    
+    Console.WriteLine($"Año de nacimiento: {anioNacimiento}");
+    Console.WriteLine($"IMC: {IMC}");
 
     }
 
