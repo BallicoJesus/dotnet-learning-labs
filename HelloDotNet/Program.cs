@@ -2,9 +2,6 @@
 {
     static void Main(string[] args)
     {
-       // Variables();
-       // ShowNumericTypes();
-       //ShowStringTypes();
-       SalaryCalculator();
+        ShowTime(); 
     }
 }
