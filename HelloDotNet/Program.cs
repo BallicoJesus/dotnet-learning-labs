@@ -5,6 +5,7 @@
         //ShowTime(); 
        //DiasDeVida();
        //TypeDifference();
-       Operators();
+       //Operators();
+       Arrays();
     }
 }
