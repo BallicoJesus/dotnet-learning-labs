@@ -3,6 +3,8 @@
     static void Main(string[] args)
     {
         //ShowTime(); 
-       DiasDeVida();
+       //DiasDeVida();
+       //TypeDifference();
+       Operators();
     }
 }
