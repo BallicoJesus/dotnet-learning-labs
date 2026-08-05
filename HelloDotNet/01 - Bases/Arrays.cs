@@ -13,6 +13,18 @@ partial class Program
            Console.WriteLine($"Tercer elemento {numbersArray[2]}");
            //Tamano arreglo
            Console.WriteLine($"El numero de elementos del arreglo es {numbersArray.Length} ");
+           // Desde el final del arreglo ^
+           Console.WriteLine($"El ultimo elemento del arreglo es {numbersArray[^1]} ");
+           Console.WriteLine($"El anteultimo elemento del arreglo es {numbersArray[^2]} ");
+           //Rangos para obtener subarreglos ..
+           int [] primerosTres = numbersArray [..3];
+           int [] desdeElDos = numbersArray [2..];
+
+           foreach (var number in desdeElDos)
+        {
+            Console.WriteLine(number);
+        }
+
 
         }
        
