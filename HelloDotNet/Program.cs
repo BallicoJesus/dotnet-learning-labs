@@ -6,6 +6,7 @@
        //DiasDeVida();
        //TypeDifference();
        //Operators();
-       Arrays();
+       //Arrays();
+       InventoryManagement();
     }
 }
