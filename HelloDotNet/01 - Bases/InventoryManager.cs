@@ -16,7 +16,7 @@ partial class Program
         Console.WriteLine("Ingrese el producto que desea comprar:");
         string? searchedProduct = Console.ReadLine();
         Console.WriteLine("Ingrese la cantidad que desea comprar: ");
-        int? quantity= int.Parse(Console.ReadLine()!);
+        int quantity= int.Parse(Console.ReadLine()!);
 
         for(int i=0; i< products.Length; i++)
         {
@@ -24,8 +24,10 @@ partial class Program
             {
                 if(quantity <= stock[i])
                 {
-                    double? total= quantity * prices [i];
+                    double total= quantity * prices [i];
+                    stock[i] = stock[i] - quantity;
                     Console.WriteLine($"Compra exitosa! el saldo a abonar es: {total} pesos");
+                    Console.WriteLine($"El stock restante para el producto {products[i]} es: {stock[i]}");
                 }else
                 {
                     Console.WriteLine("No hay stock suficiente");
