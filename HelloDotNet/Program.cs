@@ -7,6 +7,7 @@
        //TypeDifference();
        //Operators();
        //Arrays();
-       InventoryManagement();
+       //InventoryManagement();
+       ListDictionary();
     }
 }
